@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_csv(r"E:\Smart stock optimization for retail stores\data preprocessing\smart-stock.csv")
+df = pd.read_csv("/Users/nikhil.kinagi/Downloads/smart-stock(1).csv")
 plt.figure(figsize=(10,5))
 x = df["Product ID"]
 y = df["Price"]
@@ -35,5 +35,6 @@ plt.ylabel('y-axis')
 plt.legend(loc='lower right')
 plt.grid()
 plt.show()
+
 
 

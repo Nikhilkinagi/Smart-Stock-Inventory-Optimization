@@ -1,6 +1,6 @@
 import plotly.express as px
 import pandas as pd
-file_path = r"E:\Smart stock optimization for retail stores\data preprocessing\smart-stock.csv"
+file_path = "/Users/nikhil.kinagi/Downloads/smart-stock(1).csv""
 
 df = pd.read_csv(file_path)
 print(df)
@@ -27,6 +27,7 @@ fig = px.bar(
     title="Plotly Representation of Bar chart"
 )
 fig.show()
+
 
 
 

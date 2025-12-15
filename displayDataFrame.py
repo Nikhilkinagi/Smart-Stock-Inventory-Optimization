@@ -1,4 +1,5 @@
 import pandas as pd
-df = pd.read_csv("E:\Smart stock optimization for retail stores\data preprocessing\smart-stock.csv")
+df = pd.read_csv("/Users/nikhil.kinagi/Downloads/smart-stock(1).csv")
 print(df)
 print("Display upto 10 rows:\n",df.head(20))
+

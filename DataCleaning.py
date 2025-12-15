@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-file_path="E:\Smart stock optimization for retail stores\data preprocessing\smart-stock.csv"
+file_path="/Users/nikhil.kinagi/Downloads/smart-stock(1).csv"
 data = pd.read_csv(file_path)
 print("data :\n")
 print(data.head(2))
@@ -28,4 +28,5 @@ print(data.columns)
 print(data['sales'].head(5))
  
 print(data.count())
+
  

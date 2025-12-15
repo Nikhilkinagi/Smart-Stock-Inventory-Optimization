@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 df = pd.read_csv(
-    r"E:\Smart stock optimization for retail stores\Data preprocessing\smart-stock.csv",
+    "/Users/nikhil.kinagi/Downloads/smart-stock(1).csv",
     on_bad_lines='skip'   
 )
 
@@ -19,6 +19,7 @@ st.line_chart(df, x="Product ID", y="Price")
 
 st.title("My First Streamlit App")
 st.write("Hello! Streamlit is working.")
+
 
 
 

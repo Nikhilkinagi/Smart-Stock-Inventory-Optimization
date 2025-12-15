@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 df = pd.read_csv(
-    r"E:\Smart stock optimization for retail stores\Data preprocessing\smart-stock.csv"
+    "/Users/nikhil.kinagi/Downloads/smart-stock(1).csv"
 )
 
 # Features and target
@@ -38,5 +38,6 @@ price_value = float(input("\nEnter Price to predict sales: "))
 new_X = pd.DataFrame({"Price": [price_value]})
 predicted_sales = model.predict(new_X)
 print(f"Predicted sales for Price {price_value}: {predicted_sales[0][0]}")
+
 
 

@@ -6,6 +6,7 @@ def check_null_values(df):
         print(df.isnull().sum())
     else:
         print("No null values found.")
-df = pd.read_csv("E:\Smart stock optimization for retail stores\data preprocessing\smart-stock.csv")
+df = pd.read_csv("/Users/nikhil.kinagi/Downloads/smart-stock(1).csv")
 print(df)
+
 check_null_values(df)
